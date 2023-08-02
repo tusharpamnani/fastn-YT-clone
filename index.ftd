@@ -1,40 +1,518 @@
--- ds.page: Welcome to doc-site
+-- import: fastn.com/assets
+-- import: youtube/lib
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
-
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
-
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.row: 
+color: black
+width: fill-container
+background.solid: white
+padding-top.px: 5
+spacing: space-evenly
+align-content: top-left
 
 
--- ds.h3: 🎯 Used by?
 
-Our all documentation sites uses this `doc-site` theme.
+-- ftd.column:
+padding-right.px: 20
 
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
+-- ftd.image: 
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/hamburger-menu.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 20
 
--- ds.h2: Learn fastn and become a pro?
 
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
+-- ftd.image: 
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/home.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 20
 
--- end: ds.page
+-- ftd.text: home
+padding-left.px: 20
+
+
+-- ftd.image: 
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/explore.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 20
+
+-- ftd.text: explore
+padding-left.px: 15
+
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/subscriptions.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 20
+
+-- ftd.text: subs
+padding-left.px: 20
+
+
+-- ftd.image: 
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/originals.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 20
+
+-- ftd.text: originals
+padding-left.px: 15
+
+
+-- ftd.image: 
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/youtube-music.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 20
+
+
+-- ftd.text: music
+padding-left.px: 20
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/library.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 20
+
+-- ftd.text: library
+padding-left.px: 20
+
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.row:
+
+-- ftd.image: icons8-youtube.svg
+alt: Image can't be displayed 
+height.fixed.px: 60
+width.fixed.px: 60
+padding-left.px: 0
+
+-- ftd.text: YouTube
+region: h2
+padding-left.px: 5
+text-align: center
+padding-top.px: 15
+padding-right.px: 150
+
+-- end: ftd.row
+
+-- ftd.column: 
+padding.px: 25
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%207.jpg
+padding-bottom.px: 10
+
+-- ftd.row: 
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: My New Website
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: Freecodecamp
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 1.5M views . 2 years ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%205.jpg
+height.fixed.px: 216
+width.fixed.px: 301
+padding-bottom.px: 10
+padding-top.px: 40
+
+-- ftd.row:
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: How to create Thumbnail
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: Youtube
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 1.5B views . 5 years ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%206.jpg
+height.fixed.px: 216
+width.fixed.px: 301
+padding-bottom.px: 10
+padding-top.px: 40
+
+-- ftd.row: 
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: Better Thumbnails using AI
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: Elon Musk
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 15M views . 6 months ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+-- ftd.column:
+align-content: center
+
+-- ftd.row:
+spacing.fixed.px: 10
+align-content: center
+padding-top.px: 10
+
+
+-- ftd.text-input:
+placeholder: Search
+padding-horizontal.px: 25
+padding-vertical.px: 10
+width.fixed.px: 350
+border-width.px: 1
+border-color: $inherited.colors.border
+border-radius.px: 6
+
+-- lib.button: Search
+link: https://www.linkedin.com/in/tushar-pamnani
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/voice-search-icon.svg
+alt: Image can't be displayed 
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 20
+background.solid: #eee
+
+-- end: ftd.row
+
+-- ftd.column: 
+padding.px: 25
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%202.jpg
+padding-bottom.px: 10
+
+-- ftd.row: 
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: My New Gaming Channel
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: Carryminati
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 1.5M views . 2 years ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%203.jpg
+padding-bottom.px: 10
+padding-top.px: 40
+
+-- ftd.row:
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: Beginner's Guide to Web Dev
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: Hashnode
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 3.7M views . 1 year ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%204.jpg
+padding-bottom.px: 10
+padding-top.px: 40
+
+-- ftd.row: 
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: Gamer's Strategy
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: MortaL
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 1.5M views . 2 years ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- ftd.column:
+
+-- ftd.row:
+spacing.fixed.px: 5
+padding-left.px: 75 
+padding-right.px: 25
+padding-top.px: 10
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/upload.svg
+alt: Image can't be displayed 
+height.fixed.px: 45
+width.fixed.px: 45
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/youtube-apps.svg
+alt: Image can't be displayed 
+height.fixed.px: 45
+width.fixed.px: 45
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Icons/notifications.svg
+alt: Image can't be displayed 
+height.fixed.px: 45
+width.fixed.px: 45
+
+
+-- lib.button: Sign In
+link: https://www.linkedin.com/in/tushar-pamnani
+
+
+-- end: ftd.row
+
+-- ftd.column: 
+padding.px: 25
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%2010.jpg
+height.fixed.px: 180
+width.fixed.px: 301
+padding-bottom.px: 10
+
+-- ftd.row: 
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: Unboxing a new Laptop
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: Technical Guruji
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 25M views . 7 months ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%209.jpg
+height.fixed.px: 216
+width.fixed.px: 301
+padding-bottom.px: 10
+padding-top.px: 40
+
+-- ftd.row:
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: Top 5 Gaming Phones
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: Asus
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 50M views . 2 months ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Thumbnails/Thumbnail%208.jpg
+height.fixed.px: 216
+width.fixed.px: 301
+padding-bottom.px: 10
+padding-top.px: 40
+
+-- ftd.row: 
+
+-- ftd.image:
+src: https://tusharpamnani.github.io/Youtube-Project/Channel_Profile/CP5.jpg
+height.fixed.px: 45
+width.fixed.px: 45
+border-radius.px: 50
+padding-bottom.px: 0
+
+-- ftd.column: 
+
+-- ftd.text: Playing Solo
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: PUBG Mobile Esports
+padding-left.px: 20
+padding-top.px: 5
+
+-- ftd.text: 20B views . 3 years ago
+padding-left.px: 20
+padding-top.px: 1
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: ftd.row
+
+
+-- ftd.row:
+
+
+-- ftd.column:
+
+
+
+
+-- end: ftd.column
+
+
+
+-- end: ftd.row

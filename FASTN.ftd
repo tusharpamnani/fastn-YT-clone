@@ -1,18 +1,3 @@
 -- import: fastn
 
--- fastn.package: tusharpamnani.github.io/fastn-yt-clone
-favicon: /-/tusharpamnani.github.io/fastn-yt-clone/favicon.ico
-
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/footer
--- fastn.dependency: fastn-community.github.io/roboto-typography
-
--- fastn.auto-import: tusharpamnani.github.io/fastn-yt-clone/FASTN/ds
--- fastn.auto-import: tusharpamnani.github.io/fastn-yt-clone/assets
--- fastn.auto-import: doc-site
-
--- fastn.sitemap:
-
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
+-- fastn.package: youtube
